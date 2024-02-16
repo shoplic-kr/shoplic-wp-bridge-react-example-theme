@@ -14,7 +14,7 @@ declare global {
 console.log('main_slider_props', main_slider_props);
 /*
 console.log result:
-main_slider_props {root_id: "main-slider-root-id", speed: "1000"}
+main_slider_props {root_id: "main-slider-root-id", speed: "5400"}
 */
 
 const {root_id, speed} = main_slider_props;
