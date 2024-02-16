@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .inset-y-center {
+    position: absolute;
+    top: 50%;
+    @apply -translate-y-1/2;
+  }
+}
