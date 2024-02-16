@@ -2,9 +2,6 @@
 $localhostUrl = 'http://localhost:5173';
 $absoluteDistPath = get_template_directory() . '/react-app/dist';
 
-function_exists('ray') && ray('absoluteDistPath', $absoluteDistPath);
-
-
 shoplic_wp_bridge_react($localhostUrl, $absoluteDistPath)->addShortcode([
     'shortcode_name' => 'main_slider', // shortcode 이름
     'props' => [
