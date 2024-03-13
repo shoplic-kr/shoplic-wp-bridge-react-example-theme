@@ -1,10 +1,10 @@
 # Shoplic WP Bridge React Example
 
-required plugin: [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react)
+Required plugin: [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react)
 
-## 설명
-- `./react-app` 폴더에 vite로 생성한 리액트 앱이 있습니다. (필수적으로 vite를 사용해주세요)
-- `./react-app-shortcodes.php` 파일에 [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react) 에서 제공하는 함수를 사용해 숏코드를 등록했습니다.
-- `./functions.php`에서 `./react-app-shortcodes.php`를 import했습니다.
-- 원하는 위치에, `./react-app-shortcodes.php`에 등록한 숏코드를 자유롭게 사용해주세요.
-- attribute도 넣을 수 있습니다. `[main_slider speed=5400]`. attribute에 넣은 key-value는 리액트에서 props로 받을 수 있습니다.
+## Description
+- There is a React app created with Vite in the `./react-app` folder. (Please make sure to use Vite.)
+- In the `./react-app-shortcodes.php` file, we registered shortcodes using the function provided by [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react).
+- We imported `./react-app-shortcodes.php` in `./functions.php`.
+- Please feel free to use the shortcodes registered in `./react-app-shortcodes.php` wherever you want.
+- You can also include attributes. `[main_slider speed=5400]`. The key-value pairs put in attributes can be received as props in React.
