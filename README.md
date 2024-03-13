@@ -3,11 +3,11 @@
 
 # Shoplic WP Bridge React Example
 
-Required plugin: [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react)
+Required plugin: [shoplic-wp-bridge-react](https://github.com/shoplic-kr/shoplic-wp-bridge-react)
 
 ## Description
 - There is a React app created with Vite in the `./react-app` folder. (Please make sure to use Vite.)
-- In the `./react-app-shortcodes.php` file, we registered shortcodes using the function provided by [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react).
+- In the `./react-app-shortcodes.php` file, we registered shortcodes using the function provided by [shoplic-wp-bridge-react](https://github.com/shoplic-kr/shoplic-wp-bridge-react).
 - We imported `./react-app-shortcodes.php` in `./functions.php`.
 - Please feel free to use the shortcodes registered in `./react-app-shortcodes.php` wherever you want.
 - You can also include attributes. `[main_slider speed=5400]`. The key-value pairs put in attributes can be received as props in React.
