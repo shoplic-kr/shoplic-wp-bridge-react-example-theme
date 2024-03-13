@@ -1,3 +1,6 @@
+[![korean](https://img.shields.io/badge/lang-ko-blue.svg)](https://github.com/shoplic-kr/shoplic-wp-bridge-react-example-theme/blob/main/readme-ko.md)
+[![english](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/shoplic-kr/shoplic-wp-bridge-react-example-theme/blob/main/README.md)
+
 # Shoplic WP Bridge React Example
 
 Required plugin: [shoplic-wp-bridge-react](https://gitlab.com/byeongin_shoplic/shoplic-wp-bridge-react)
